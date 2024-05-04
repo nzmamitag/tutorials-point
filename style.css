@@ -1,0 +1,188 @@
+header{
+    background-color: #FBFBFD;
+}
+    img{
+        margin: 10px 10px 0 10px;
+    }
+    img, ul{
+        display: inline-block
+    }
+    ul{
+        margin-left: 600px;
+        }
+        ul li{
+            display: inline-block;
+        }
+            ul li a{
+                text-decoration: none;
+                padding: 20px;
+                color: black;
+                font-size: 20px;
+                position: relative;
+                bottom: 45px;
+            }
+    button{
+        background-color: #2C9D30;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        position: relative;
+        bottom: 45px;
+        cursor: pointer;
+    }
+.contents{
+    background: url("img/background.png");
+    width: 1520px;
+    height: 820px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0;
+}
+    .contents #h1Container{
+        margin: 20px;
+        width: 700px;
+        position: relative;
+        top: 20%;
+        left: 5%;
+    }
+    h1{
+        color: white;
+        font-size: 70px;
+    }
+        span{
+            color: #2C9D30;
+        }
+    input{
+        border-radius: 10px;
+        padding: 10px;
+    }
+    #intro{
+        margin-top: 20px;
+        color: white;
+        font-size: 18px;
+        width: 600px;
+    }
+.ratings{
+    background-color: #06141C;
+    padding: 10px;
+    margin: 0 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+    .ratings img{
+        width: 120px;
+        margin-left: 85px;
+    }
+    h3{
+        color: white;
+        font-size: 30px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .ratings #text{
+        color: white;
+        display: block;
+        font-size: 15px;
+    }
+.startLearning{
+    text-align: center;
+}
+    .startLearning h2{
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+    .startLearning p{
+        font-size: 20px;
+    }
+.codingGround{
+    background: url("img/girlbg.png");
+    width: 1520px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+    .cgContents{
+        width: 500px;
+        position: relative;
+        left: 55%;
+        top: 10%;
+    }
+        .cgContents #p1{
+            padding: 10px;
+            background-color: #FFE529;
+            width: 200px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        .cgContents #p2{
+            color: white;
+           
+        }
+        .cgContents button{
+            color: white;
+            background-color: #2C9D30;
+            position: relative;
+            margin-top: 50px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+.about{
+    vertical-align: top;
+}
+    .membership, .certifications{
+        display: inline-block;
+    }
+        .membership{
+            padding-left: 10px;
+            background-color: #BFE4F5;
+            border-radius: 10px;
+            width: 650px;
+            height: 320px;
+            margin-left: 80px;
+            margin-right: 10px;
+        }
+            .membership h3{
+                color: black;
+            }
+            .membership .memberContents{
+                width: 280px;
+                display: inline-block;
+            }
+            .membership button{
+                background-color: #0196DA;
+                margin-top: 90px;
+            }
+            .membership img{
+                width: 350px;
+                height: 290px;
+                position: absolute;
+            }
+        .certifications{
+            padding-left: 10px;
+            background-color: #FCDBC4;
+            border-radius: 10px;
+            width: 650px;
+            height: 320px;
+        }
+            .certifications h3{
+                color: black;
+            }
+            .certifications .certContents{
+                width: 280px;
+                display: inline-block;
+            }
+            .certifications button{
+                background-color: #F46F14;
+                margin-top: 90px;
+            }
+            .certifications img{
+                width: 350px;
+                height: 290px;
+                position: absolute;
+            }
+footer{
+    text-align: center;
+}
+    
